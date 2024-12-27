@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(2, 20, 41);
+    color: white;
+}
+nav{
+    height: 80px;
+    background-color: rgb(13, 36, 130);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.5rem;
+
+}
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 220px 0;
+}
+
+.first-sec > div{
+    width: 30%;
+}
+.left-sec{
+    font-size:3rem;
+   
+}
+.right-sec img{
+    width: 80%;
+    margin-top: 50px;
+}
+.red{
+    color: rgb(142, 44, 234);
+    font-size: 2.8rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(117, 117, 224);
+    font-size: 1.03rem;
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 48px 84px;
+}
+
+.second h1{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.second .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0 0 0;
+}
+.second .vertical-box {
+    background: white;
+    width: 2px;
+    height: 350px;
+    display: flex;
+    margin: 0 auto;
+}
+.left-line1{
+    background: white;
+    width: 25px;
+    height: 2px;
+    margin: 56px 0 56px 0;
+    position: absolute;
+    left: 735px;
+}
+.left-line1p{
+    margin-top: 28px;
+    position: absolute;
+    left: 305px;
+    width: 400px;
+}
+
+.right-line1{
+    background: white;
+    width: 25px;
+    height: 2px;
+    margin: 112px 0 56px 0;
+    position: absolute;
+   
+}
+.right-line1p{
+    margin-top: 85px;
+    position: absolute;
+    right: 300px;
+    width: 400px;
+}
+.left-line2{
+    background: white;
+    width: 25px;
+    height: 2px;
+    margin: 188px 0 56px 0;
+    position: absolute;
+    left: 735px;
+}
+.left-line2p{
+    margin-top: 160px;
+    position: absolute;
+    left: 305px;
+    width: 400px;
+}
+.right-line2{
+    background: white;
+    width: 25px;
+    height: 2px;
+    margin: 265px 0 56px 0;
+    position: absolute;
+   
+}
+.right-line2p{
+    margin-top: 240px;
+    position: absolute;
+    right: 300px;
+    width: 400px;
+}
+.center {
+    
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 175vh;
+    right: 75vh;
+    text-align: center;
+}
+.projects{
+    height: 90vh;
+}
+.projects-h{
+    max-width: 80vw;
+    margin: auto;
+    height: 10vh;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.project-img{
+    height: 30vh;
+    width: 30vw;
+    position: absolute;
+    left: 530px;
+    border-radius: 15%;
+    border: 2px solid white;
+}
+.project-port{
+    height: 30vh;
+    width: 30vw;
+    position: absolute;
+    left: 530px;
+    margin-top: 40vh;
+    border-radius: 15%;
+    border: 2px solid white;
+}
+
+footer{
+    background-color: #0e0e1a;
+    height: 233px;
+    
+}
+
+.footer{
+    display: flex;
+    padding: 23px 22px;
+    justify-content: space-evenly;
+   
+}
+.footer ul{
+    list-style: none;
+}
+.footer div{
+    width: 250px;
+}
+.end1{
+    text-align: center;
+    color: gray;
+    padding: 60px 0 0 0;
+}
+.end2{
+    text-align: center;
+    color: gray;
+    padding: 5px 0;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn1{
+    font-size: 3rem;
+    padding: 8px;
+    margin-right: 5px;
+    background-color: #3631a2;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn2{
+    font-size: 3rem;
+    padding: 8px;
+   
+    background-color: #3631a2;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn1:hover{
+    text-decoration: underline;
+    font-size: 16px;
+}
+.btn2:hover{
+    text-decoration: underline;
+    font-size: 16px;
+}
+.icon{
+    margin-right: 2px;
+}
